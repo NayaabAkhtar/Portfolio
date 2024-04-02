@@ -82,7 +82,7 @@ const Skills = () => {
     },
   ]
   return (
-    <div name="skills" className='bg-gradient-to-b from-gray-800 to-black w-full md:h-screen '>
+    <div name="skills" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen '>
       
       <div className='max-w-screen-lg text-white mx-auto p-4 w-full h-full flex flex-col justify-center'>
         <div className='mt-12 md:mt-0'>
@@ -90,9 +90,9 @@ const Skills = () => {
           <p className='py-6'>These are the Technologies I've worked with-</p>
         </div>
 
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0'>
+        <div className='w-full grid grid-cols-3 sm:grid-cols-4 gap-5 lg:gap-8 text-center py-8 px-12 sm:px-0'>
           {techs.map(({id,src,title,style})=>(
-          <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+          <div key={id} className={`shadow-md scale-90 sm:scale-100 hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
             <img src={src} alt="" className='w-20 mx-auto' />
             <p className='mt-4'>{title}</p>
           </div>

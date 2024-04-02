@@ -14,9 +14,10 @@ const Education = () => {
         <p>2023-2025</p>
         <p>Grade: 8.7 CGPA</p>
       </div>
-      <li className='font-semibold text-lg mt-3'>
-      Currently I'm pursuing my Master's in Computer Applications from MADAN MOHAN MALVIYA UNIVERSITY OF TECHNOLOGY, GORAKHPUR. Here, I,m learning about Data Structures, Web Technologies, Databases, and other core subjects of CS.
-      </li>
+      <div className='sm:font-semibold text-lg mt-3'>
+      <li>University: Madan Mohan Malviya University Of Technology, Gorakhpur. </li>
+       <li>Here, I,m learning about Data Structures, Web Technologies, Databases, and other core subjects of CS.</li>
+      </div>
       </div>
       <br />
       <div>
@@ -25,9 +26,10 @@ const Education = () => {
         <p>2019-2022</p>
         <p>Grade: 67.4%</p>
       </div>
-      <li className='font-semibold text-lg mt-3'>
-        I completed My Bachelor's Degree in Computer Application from J.S UNIVERSITY, SHIKOHABAD. Here, I learned about C, Java programming language, MySQL and Basic of Web Development.
-      </li>
+      <div className='sm:font-semibold text-lg mt-3'>
+        <li>University: J.S University, Shikohabad.</li>
+        <li>Here, I learned about C, Java programming language, MySQL and Basic of Web Development.</li>
+      </div>
       </div>
       <br />
       <div>
@@ -36,8 +38,8 @@ const Education = () => {
         <p>2019</p>
         <p>Grade: 83%</p>
       </div>
-      <li className='font-semibold text-lg mt-3'>
-        Did My Intermediate from K.V MANAURI, PRAYAGRAJ.
+      <li className='sm:font-semibold text-lg mt-3'>
+        School: K.V Manauri, Prayagraj.
       </li>
       </div>
       <br />
@@ -47,8 +49,8 @@ const Education = () => {
         <p>2017</p>
         <p>Grade: 89.3%</p>
       </div>
-      <li className='font-semibold text-lg mt-3'>
-        Did My High School from K.V MANAURI, PRAYAGRAJ.
+      <li className='sm:font-semibold text-lg mt-3'>
+        School: K.V Manauri, Prayagraj.
       </li>
       </div>
     </div>
