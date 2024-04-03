@@ -1,49 +1,40 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import grocery from '../assets/portfolio/grocery.png'
+import docs from '../assets/portfolio/docs.png'
+import calculator from '../assets/portfolio/calculator.png'
+import ieducate from '../assets/portfolio/ieducate.png'
 
 const Projects = () => {
     const project=[
         {
             id: 1,
-            src: arrayDestruct,
-            dlink: "https://www.linkedin.com",
-            clink: "https://www.linkedin.com",
+            src: grocery,
+            dlink: "https://nayaabgrocery.netlify.app/",
+            clink: "https://github.com/NayaabAkhtar/Grocery",
             demo: "Demo",
             code: "Code"   
         },
         {
             id: 2,
-            src: reactParallax,
-            dlink: "https://www.linkedin.com",
-            clink: "https://www.linkedin.com",
+            src: calculator,
+            dlink: "https://nayaabcalculator.netlify.app/",
+            clink: "https://github.com/NayaabAkhtar/calculator",
             demo: "Demo",
             code: "Code"
         },
         {
             id: 3,
-            src: navbar,
-            dlink: "https://www.linkedin.com",
-            clink: "https://www.linkedin.com", 
+            src: docs,
+            dlink: "https://nayaabdocs.netlify.app/",
+            clink: "https://github.com/NayaabAkhtar/Docs-Mini-App", 
             demo: "Demo",
             code: "Code"   
         },
         {
             id: 4,
-            src: reactSmooth,
-            dlink: "https://www.linkedin.com",
-            clink: "https://www.linkedin.com",
-            demo: "Demo",
-            code: "Code"
-        },
-        {
-            id: 5,
-            src: reactWeather,
-            dlink: "https://www.linkedin.com",
-            clink: "https://www.linkedin.com",
+            src: ieducate,
+            dlink: "https://nayaabakhtar.github.io/I-Educate/",
+            clink: "https://github.com/NayaabAkhtar/I-Educate",
             demo: "Demo",
             code: "Code"
         },
