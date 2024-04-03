@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import SocialLinks from "./components/SocialLinks";
@@ -8,6 +8,10 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
 function App() {
+  useEffect(() => {
+    document.title="Nayaab Portfolio"
+  }, [])
+  
   return (
     <div>
       <NavBar/>
