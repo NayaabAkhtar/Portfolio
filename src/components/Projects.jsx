@@ -3,19 +3,37 @@ import grocery from '../assets/portfolio/grocery.png'
 import docs from '../assets/portfolio/docs.png'
 import calculator from '../assets/portfolio/calculator.png'
 import ieducate from '../assets/portfolio/ieducate.png'
+import chatwave from '../assets/portfolio/chatwave.png'
+import cartify from '../assets/portfolio/cartify.png'
 
 const Projects = () => {
     const project=[
         {
             id: 1,
-            src: grocery,
-            dlink: "https://nayaabgrocery.netlify.app/",
-            clink: "https://github.com/NayaabAkhtar/Grocery",
+            src: chatwave,
+            dlink: "https://chatwave-o7y7.onrender.com",
+            clink: "https://github.com/NayaabAkhtar/ChatWave",
             demo: "Demo",
             code: "Code"   
         },
         {
             id: 2,
+            src: cartify,
+            dlink: "https://cartify-w8p2.onrender.com",
+            clink: "https://github.com/NayaabAkhtar/Cartify-E-commerce",
+            demo: "Demo",
+            code: "Code"
+        },
+        {
+            id: 3,
+            src: grocery,
+            dlink: "https://nayaabgrocery.netlify.app/",
+            clink: "https://github.com/NayaabAkhtar/Grocery",
+            demo: "Demo",
+            code: "Code"    
+        },
+        {
+            id: 4,
             src: calculator,
             dlink: "https://nayaabcalculator.netlify.app/",
             clink: "https://github.com/NayaabAkhtar/calculator",
@@ -23,15 +41,15 @@ const Projects = () => {
             code: "Code"
         },
         {
-            id: 3,
+            id: 5,
             src: docs,
             dlink: "https://nayaabdocs.netlify.app/",
             clink: "https://github.com/NayaabAkhtar/Docs-Mini-App", 
             demo: "Demo",
-            code: "Code"   
+            code: "Code"
         },
         {
-            id: 4,
+            id: 6,
             src: ieducate,
             dlink: "https://nayaabakhtar.github.io/I-Educate/",
             clink: "https://github.com/NayaabAkhtar/I-Educate",
