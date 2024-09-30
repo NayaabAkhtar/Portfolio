@@ -51,8 +51,8 @@ const Projects = () => {
         {
             id: 6,
             src: ieducate,
-            dlink: "https://nayaabakhtar.github.io/I-Educate/",
-            clink: "https://github.com/NayaabAkhtar/I-Educate",
+            dlink: "https://chatwaveadv.onrender.com/",
+            clink: "https://github.com/NayaabAkhtar/ChatAdvDep",
             demo: "Demo",
             code: "Code"
         },

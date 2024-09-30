@@ -12,7 +12,7 @@ const Education = () => {
       <p className='inline text-xl mt-4 font-semibold border-b-2 border-gray-500 text-yellow-300'>Master Of Computer Application</p>
       <div className='flex justify-between text-xl font-semibold mt-2'>
         <p>2023-2025</p>
-        <p>Grade: 8.7 CGPA</p>
+        <p>Grade: 82.6%</p>
       </div>
       <div className='sm:font-semibold text-lg mt-3'>
       <li>University: Madan Mohan Malviya University Of Technology, Gorakhpur. </li>
